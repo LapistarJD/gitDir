@@ -13,6 +13,26 @@ public class HelloWorldTest {
         for (Integer integer : integers) {
             System.out.println(integer);
         }
+        /*
+         * 添加数组,求和
+         * */
+        int[] ints = new int[10];
+        ints[0] = 1;
+        ints[1] = 1;
+        ints[2] = 1;
+        ints[3] = 1;
+        ints[4] = 1;
+        ints[5] = 1;
+        ints[6] = 1;
+        ints[7] = 1;
+        ints[8] = 1;
+        ints[9] = 1;
+        int count = 0;
+        for (int anInt : ints) {
+            count += anInt;
+        }
+        System.out.println(count);
+
 
     }
 }
