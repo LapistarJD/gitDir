@@ -1,0 +1,36 @@
+JVM调优	gc原理	Redis
+Spring	SpringMVC	MyBatis	SpringBoot
+Dubbox	Java爬虫
+HDFS	MapReducer	Yarn
+Spark工作机制	Spark任务执行流程
+OpenSearch	Elasticsearch
+Storm
+SparkSQL	HiveSQL
+Hbase+SparkSQL+SparkStreaming
+Linux	Python	相关算法
+airflow	activeMQ	tableu	Otter	oss对象存储
+HIve(odps)	Echart	NLP文本解析	Sqoop	Azkakan	Zookeeper	Flume
+Oozie
+
+集合类
+	ArrayList
+		底层是数组 ,查找快,增删慢
+	LinkList
+		链表(双端循环链表) ,增删快,查找慢
+	HashMap(jdk1.8以前)
+		数组+链表
+	HashMap(jdk1.8以后)
+		数组+链表+红黑树
+
+
+
+
+Heap
+  |-- PSYoungGen(年轻代)	total 76288K, used 6555K [0x000000076b380000, 0x0000000770880000, 0x00000007c0000000)
+		|-- eden space 65536K, 10% used [0x000000076b380000,0x000000076b9e6d60,0x000000076f380000)
+		|-- from space 10752K, 0% used [0x000000076fe00000,0x000000076fe00000,0x0000000770880000)
+		|-- to   space 10752K, 0% used [0x000000076f380000,0x000000076f380000,0x000000076fe00000)
+  |-- ParOldGen(老年代)     total 175104K, used 0K [0x00000006c1a00000, 0x00000006cc500000, 0x000000076b380000)
+		|-- object space 175104K, 0% used [0x00000006c1a00000,0x00000006c1a00000,0x00000006cc500000)
+  |-- Metaspace(元空间)     used 3461K, capacity 4496K, committed 4864K, reserved 1056768K
+		|-- class space    used 379K, capacity 388K, committed 512K, reserved 1048576K
