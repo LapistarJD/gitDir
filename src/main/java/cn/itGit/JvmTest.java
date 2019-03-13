@@ -21,6 +21,12 @@ public class JvmTest {
             System.out.println(student.name+" --> "+student.age);
         }
 
+
+        Student s= new GoodStudent();
+      //  s.hardLearn();
+        GoodStudent gs = new GoodStudent();
+        gs.hardLearn("zhang3",16);
+
     }
 
     static class Student {
@@ -33,6 +39,23 @@ public class JvmTest {
         }
 
         public Student() {
+        }
+    }
+
+    static class GoodStudent extends Student{
+        private String name;
+        private int age;
+
+        public GoodStudent(String name, int age,int num) {
+            this.name = name;
+            this.age = age;
+        }
+
+        public GoodStudent() {
+        }
+
+        public static void  hardLearn(String name,int age){
+            System.out.println("好好学习");
         }
     }
 }
