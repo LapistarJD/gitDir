@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HelloWorldTest {
+    public int m1(int x, int y) {
+        return x + y;
+    }
+
     public static void main(String[] args) {
         System.out.println("welcome to java!");
         List<Integer> integers = new ArrayList<Integer>(3);
@@ -33,6 +37,23 @@ public class HelloWorldTest {
         }
         System.out.println(count);
 
+        int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        for (int i : arr) {
+            System.out.println(i);
+        }
+        for (int a = 0; a < arr.length; a++) {
+            System.out.println(arr[a]);
+        }
+
+        // SCALA
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + "x" + i + "=" + j * i + " ");
+                if (j == i) {
+                    System.out.println();
+                }
+            }
+        }
 
     }
 }
