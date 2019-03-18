@@ -17,5 +17,13 @@ public class Student {
     public static void main(String[] args) {
         Student zhang3 = new Student("zhang3", 16);
         zhang3.learning(zhang3);
+
+        int[] arr =new int[3];
+        arr[0]=1;
+        arr[1]=3;
+        arr[2]=2;
+        for (int i : arr) {
+            System.out.println(i);
+        }
     }
 }
