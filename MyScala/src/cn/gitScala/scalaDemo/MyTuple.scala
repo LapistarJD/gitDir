@@ -1,3 +1,5 @@
+package cn.gitScala.scalaDemo
+
 object MyTuple {
   def main(args: Array[String]): Unit = {
     //创建元组格式：

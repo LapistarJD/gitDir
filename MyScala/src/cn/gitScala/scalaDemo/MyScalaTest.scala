@@ -1,3 +1,5 @@
+package cn.gitScala.scalaDemo
+
 import scala.collection.mutable.ArrayBuffer
 
 object MyScalaTest {

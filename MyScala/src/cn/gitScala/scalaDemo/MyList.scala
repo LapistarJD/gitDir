@@ -1,3 +1,5 @@
+package cn.gitScala.scalaDemo
+
 object MyList {
 
   def main(args: Array[String]): Unit = {

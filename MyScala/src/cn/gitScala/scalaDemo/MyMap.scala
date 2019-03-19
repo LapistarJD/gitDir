@@ -1,3 +1,5 @@
+package cn.gitScala.scalaDemo
+
 object MyImmutMap {
   def main(args: Array[String]): Unit = {
     //定义Map集合

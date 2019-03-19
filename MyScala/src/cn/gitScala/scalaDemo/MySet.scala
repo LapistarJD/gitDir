@@ -1,3 +1,5 @@
+package cn.gitScala.scalaDemo
+
 object MySet {
   def main(args: Array[String]): Unit = {
     //定义一个不可变的Set集合
