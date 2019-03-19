@@ -25,5 +25,9 @@ public class Student {
         for (int i : arr) {
             System.out.println(i);
         }
+
+        Per per = Per.getPer();
+        per.myTest("name","age","");
+        System.out.println(per);
     }
 }
