@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyScala/MyScala.iml" filepath="$PROJECT_DIR$/MyScala/MyScala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyScala-Maven/MyScala-Maven.iml" filepath="$PROJECT_DIR$/MyScala-Maven/MyScala-Maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/gitDir.iml" filepath="$PROJECT_DIR$/gitDir.iml" />
       <module fileurl="file://$PROJECT_DIR$/myStorm/myStorm.iml" filepath="$PROJECT_DIR$/myStorm/myStorm.iml" />
     </modules>
